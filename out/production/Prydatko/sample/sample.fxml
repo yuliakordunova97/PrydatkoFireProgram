@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1330.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane maxWidth="600.0" prefHeight="600.0" prefWidth="500.0" HBox.hgrow="ALWAYS">
+         <children>
+            <VBox layoutX="25.0" layoutY="37.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="250.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+               <children>
+                  <HBox prefHeight="30.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label maxWidth="400.0" minWidth="420.0" prefHeight="31.0" prefWidth="334.0" text="Ширина складу" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txt_B" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Label maxWidth="50.0" minWidth="50.0" prefHeight="31.0" prefWidth="69.0" text="м" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="30.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label maxWidth="400.0" minWidth="420.0" prefHeight="31.0" prefWidth="334.0" text="Довжина складу" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txt_A" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Label maxWidth="50.0" minWidth="50.0" prefHeight="31.0" prefWidth="69.0" text="м" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="30.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label maxWidth="400.0" minWidth="420.0" prefHeight="31.0" prefWidth="334.0" text="Ширина адміністративного приміщення" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txt_B_admin" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Label maxWidth="50.0" minWidth="50.0" prefHeight="31.0" prefWidth="69.0" text="м" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="30.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label maxWidth="400.0" minWidth="420.0" prefHeight="31.0" prefWidth="334.0" text="Довжина адміністративного приміщення" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txt_A_admin" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Label maxWidth="50.0" minWidth="50.0" prefHeight="31.0" prefWidth="69.0" text="м" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="30.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label maxWidth="400.0" minWidth="420.0" prefHeight="31.0" prefWidth="334.0" text="Кількість поверхів адміністративного приміщення" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txt_kilk" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Label maxWidth="50.0" minWidth="50.0" prefHeight="31.0" prefWidth="69.0" text="од." HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="30.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label maxWidth="400.0" minWidth="420.0" prefHeight="31.0" prefWidth="334.0" text="Площа складу" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txt_square" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Label maxWidth="50.0" minWidth="50.0" prefHeight="31.0" prefWidth="69.0" text="м.кв" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="30.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label maxWidth="400.0" minWidth="420.0" prefHeight="31.0" prefWidth="334.0" text="Загальна площа адміністративних приміщень" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txt_S_zagal" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Label maxWidth="50.0" minWidth="50.0" prefHeight="31.0" prefWidth="69.0" text="м.кв" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="30.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label maxWidth="400.0" minWidth="420.0" prefHeight="31.0" prefWidth="334.0" text="Кількість приймально-контрольних пристроїв" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txt_Npkp" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Label maxWidth="50.0" minWidth="50.0" prefHeight="31.0" prefWidth="69.0" text="од." HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="30.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label maxWidth="400.0" minWidth="420.0" prefHeight="31.0" prefWidth="334.0" text="Кількість евакуаційних виходів з складу" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txt_Kilk_Evak_Vyh" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Label maxWidth="50.0" minWidth="50.0" prefHeight="31.0" prefWidth="69.0" text="од." HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="30.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label maxWidth="400.0" minWidth="420.0" prefHeight="31.0" prefWidth="334.0" text="Загальна кількість працівників" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txt_Zag_kilk_prac" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Label maxWidth="50.0" minWidth="50.0" prefHeight="31.0" prefWidth="69.0" text="осіб" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="30.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label maxWidth="400.0" minWidth="420.0" prefHeight="31.0" prefWidth="334.0" text="Середня вартість 1м.кв. площі об'єкта" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txt_C0" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Label maxWidth="72.0" minWidth="50.0" prefHeight="31.0" prefWidth="72.0" text="грн/м.кв." HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="30.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label maxWidth="400.0" minWidth="420.0" prefHeight="31.0" prefWidth="334.0" text="Середня вартість однієї хвилини роботи ПРП" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="txt_Cn" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </TextField>
+                        <Label maxWidth="50.0" minWidth="50.0" prefHeight="31.0" prefWidth="69.0" text="грн/хв" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <AnchorPane layoutX="30.0" layoutY="550.0" prefHeight="200.0" prefWidth="590.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <VBox layoutX="101.0" layoutY="8.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <HBox prefHeight="45.0" prefWidth="590.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Label minWidth="140.0" text="Значення a1">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="txt_a_1" maxWidth="70.0" minWidth="70.0" />
+                              <Label minWidth="140.0" text="Значення b1">
+                                 <HBox.margin>
+                                    <Insets left="50.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="txt_b_1" maxWidth="70.0" minWidth="70.0" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="45.0" prefWidth="590.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Label minWidth="140.0" text="Значення a2">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="txt_a_2" maxWidth="70.0" minWidth="70.0" />
+                              <Label minWidth="140.0" text="Значення b2">
+                                 <HBox.margin>
+                                    <Insets left="50.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="txt_b_2" maxWidth="70.0" minWidth="70.0" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="45.0" prefWidth="590.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Label minWidth="140.0" text="Значення a3">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="txt_a_3" maxWidth="70.0" minWidth="70.0" />
+                              <Label minWidth="140.0" text="Значення b3">
+                                 <HBox.margin>
+                                    <Insets left="50.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="txt_b_3" maxWidth="70.0" minWidth="70.0" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="45.0" prefWidth="590.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Label minWidth="140.0" text="Значення a4">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="txt_a_4" maxWidth="70.0" minWidth="70.0" />
+                              <Label minWidth="140.0" text="Значення b4">
+                                 <HBox.margin>
+                                    <Insets left="50.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="txt_b_4" maxWidth="70.0" minWidth="70.0" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="45.0" prefWidth="590.0" VBox.vgrow="ALWAYS">
+                           <children>
+                              <Label minWidth="140.0" text="Значення a5">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="txt_a_5" maxWidth="70.0" minWidth="70.0" />
+                              <Label minWidth="140.0" text="Значення b5">
+                                 <HBox.margin>
+                                    <Insets left="50.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="txt_b_5" maxWidth="70.0" minWidth="70.0" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+            <Label alignment="CENTER" layoutX="-6.0" layoutY="29.0" prefHeight="21.0" prefWidth="626.0" text="Вхідні дані:" textAlignment="CENTER" AnchorPane.topAnchor="20.0">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane maxWidth="700.0" minWidth="700.0" prefHeight="200.0" prefWidth="600.0" HBox.hgrow="ALWAYS">
+         <children>
+            <HBox layoutX="20.0" layoutY="63.0" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="250.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="50.0">
+               <children>
+                  <AnchorPane prefHeight="500.0" prefWidth="105.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <VBox prefHeight="500.0" prefWidth="177.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#calculate" prefHeight="66.0" prefWidth="165.0" text="Розрахунок">
+                                 <VBox.margin>
+                                    <Insets top="30.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#clear" prefHeight="66.0" prefWidth="165.0" text="Очистити">
+                                 <VBox.margin>
+                                    <Insets top="15.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Button>
+                              <Button mnemonicParsing="false" onAction="#example" prefHeight="66.0" prefWidth="165.0" text="Дані з прикладу" textAlignment="CENTER" wrapText="true">
+                                 <VBox.margin>
+                                    <Insets top="15.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </VBox>
+                        <AnchorPane layoutX="262.0" layoutY="56.0" prefHeight="500.0" prefWidth="435.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <TextArea fx:id="txtArea_VyhDani" layoutX="-39.0" layoutY="59.0" prefHeight="500.0" prefWidth="475.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-39.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <Label alignment="CENTER" layoutX="102.0" layoutY="18.0" prefHeight="21.0" prefWidth="626.0" text="Вихідні дані:" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

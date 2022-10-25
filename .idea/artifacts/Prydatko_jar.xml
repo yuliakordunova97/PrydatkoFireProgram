@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Prydatko:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Prydatko_jar</output-path>
+    <root id="archive" name="Prydatko.jar">
+      <element id="module-output" name="Prydatko" />
+    </root>
+  </artifact>
+</component>
